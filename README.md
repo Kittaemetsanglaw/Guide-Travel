@@ -1,2 +1,2 @@
-# ProJect CPE302 
+# Project CPE302 
 Guide-Travel
