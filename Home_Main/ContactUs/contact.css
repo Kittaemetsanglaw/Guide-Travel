@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+.links {
+    margin-right: 30px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #111;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 21px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-contactus {
+    /* border: solid 1px; */
+    margin-left: 14rem;
+    width: 45rem;
+}
+
+.container-contactus p {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.password input[type="password"] {
+    padding: 10px 30px 5px 5px;
+    margin-left: 0.1rem;
+    /* ปรับขนาดของช่อง input */
+    border: 1px solid #ccc;
+    /* เส้นขอบ */
+    border-radius: 20px;
+    /* ทำให้มีเส้นโค้ง */
+    width: 200px;
+    /* กำหนดความกว้าง */
+}
+
+.name input[type="text"] {
+    padding: 10px 30px 5px 5px;
+    margin-left: 2rem;
+    /* ปรับขนาดของช่อง input */
+    border: 1px solid #ccc;
+    /* เส้นขอบ */
+    border-radius: 20px;
+    /* ทำให้มีเส้นโค้ง */
+    width: 200px;
+    /* กำหนดความกว้าง */
+}
+
+.contact-h1 {
+    font-size: 64px;
+    margin-bottom: 3rem;
+}
+
+.name {
+    font-size: 22px;
+    margin-top: 3rem;
+
+}
+
+
+.password {
+    font-size: 22px;
+}
+
+.button {
+
+    border-radius: 20px;
+
+}
+
+.button {
+    width: 12rem;
+}
+
+.button h2 {
+    font-size: 20px;
+    padding: 6px;
+    text-align: center;
+    background-color: #111;
+    color: aliceblue;
+
+    cursor: pointer;
+}
+
+.container-info {
+    border-radius: 50px 0px 0px 50px;
+    width: 45rem;
+    height: 36rem;
+    padding: 20px;
+    background-color: #111111;
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+
+
+}
+
+.info {
+    color: #ccc;
+}
+
+.img-email img {
+    width: 40px;
+    height: 40px;
+}
+
+.img-phone img {
+    width: 40px;
+    height: 40px;
+}
+
+.img-line img {
+    width: 40px;
+    height: 40px;
+}
+
+.img-ig img {
+    width: 40px;
+    height: 40px;
+}
+
+.info {
+    font-size: 54px;
+    color: aliceblue;
+}
+
+.email a {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.phone a {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.line a {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ig a {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.img-email-address-email {
+    display: flex;
+    padding-bottom: 40px;
+    align-items: center;
+
+}
+
+.img-phone-address-phone {
+    display: flex;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.img-line-address-line {
+    display: flex;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.img-ig-address-ig {
+    display: flex;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.cotainer-info-text {
+    margin-left: 50px;
+}
+
+.img-email {
+    margin-left: 50px;
+}
+
+.address-email {
+    margin-left: 20px;
+}
+
+.img-phone {
+    margin-left: 50px;
+}
+
+.address-phone {
+    margin-left: 20px;
+}
+
+.img-line {
+    margin-left: 50px;
+}
+
+.address-line {
+    margin-left: 20px;
+}
+
+.img-ig {
+    margin-left: 50px;
+}
+
+.address-ig {
+    margin-left: 20px;
+}

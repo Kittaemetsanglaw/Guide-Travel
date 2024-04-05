@@ -1,0 +1,138 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* Image Container */
+.vedio-container {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.vedio-container video {
+   
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-position: center;
+    /* background: linear-gradient(90deg, rgba(0, 0, 0, 0.1943) 0%, rgba(0, 0, 0, 0) 50%); */
+}
+
+/* Logo */
+.logo {
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    /* เพิ่ม padding เพื่อไม่ให้โลโก้แน่นหน้าภาพ */
+}
+
+.logo img {
+    width: 50px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+/* Links */
+.links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 30px;
+    padding-right: 50px;
+    /* เพิ่ม padding เพื่อไม่ให้ลิงก์แน่นหน้าภาพ */
+}
+
+/* Links ใน Navbar */
+.links a {
+    margin-left: 10px;
+    /* เพิ่มระยะห่างระหว่างลิงก์ */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+
+    font-size: 20px;
+    font-weight: 400;
+    /* border: solid; */
+}
+
+.main {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
+}
+
+.main h1 {
+    font-size: 80px;
+}
+
+.main p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.bottom {
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%);
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 90%;
+    display: flex;
+}
+
+.bottom div {
+    margin-right: 50px;
+    /* เพิ่มระยะห่างให้มาไกลกันมากขึ้น */
+}
+
+.bottom .t1,
+.bottom .t2 {
+    font-size: 20px;
+    /* ปรับขนาดตัวอักษรใหญ่ขึ้น */
+    text-align: center;
+    padding: 12px 20px;
+    /* ปรับขนาดกล่องใหญ่ขึ้น */
+    border-radius: 30px;
+    /* ปรับรูปร่างเป็นวงกลม */
+}
+
+.bottom .t1 {
+    background: #ffffff;
+    /* เปลี่ยนสีพื้นหลังเป็นขาว */
+    color: #000000;
+    /* เปลี่ยนสีตัวอักษรเป็นดำ */
+    
+}
+
+.bottom .t2 {
+    background: #000000;
+    color: #ffffff;
+    /* เปลี่ยนสีตัวอักษรเป็นขาว */
+}
+.bottom a  {
+    text-decoration: none;
+}
+
+.bottom1:hover {
+    opacity: 0.9;
+}
+
+.bottom2:hover {
+    opacity: 0.9;
+}
