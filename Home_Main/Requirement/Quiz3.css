@@ -9,9 +9,7 @@ body {
     background-color: #384450;
 }
 
-body::after {
-    
-}
+
 .container .Quiz {
     font-size: 32px;
     padding-left: 100px;
