@@ -4,6 +4,43 @@
     box-sizing: border-box;
     font-family: arial;
   }
+  .logo {
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    /* เพิ่ม padding เพื่อไม่ให้โลโก้แน่นหน้าภาพ */
+}
+
+.logo img {
+    width: 50px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+/* Links */
+.links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 30px;
+    padding-right: 50px;
+    /* เพิ่ม padding เพื่อไม่ให้ลิงก์แน่นหน้าภาพ */
+}
+
+/* Links ใน Navbar */
+.links a {
+    margin-left: 10px;
+    /* เพิ่มระยะห่างระหว่างลิงก์ */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+
+    font-size: 20px;
+    font-weight: 400;
+    /* border: solid; */
+}
   * a {
     text-decoration: none;
   }
@@ -132,7 +169,9 @@
   }
   .phuket p {
     color: #fff;
-    opacity: 0.7;
+    
+    
+    
   }
   .tnx h2 i {
     color: #fd7e13;

@@ -1,0 +1,250 @@
+.logo {
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    /* เพิ่ม padding เพื่อไม่ให้โลโก้แน่นหน้าภาพ */
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+  }
+  
+  /* Links */
+  .links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 30px;
+    padding-right: 50px;
+    /* เพิ่ม padding เพื่อไม่ให้ลิงก์แน่นหน้าภาพ */
+  }
+  
+  /* Links ใน Navbar */
+  .links a {
+    margin-left: 10px;
+    /* เพิ่มระยะห่างระหว่างลิงก์ */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+  
+    font-size: 20px;
+    font-weight: 400;
+    /* border: solid; */
+  }
+  
+  
+  
+  
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #384450;
+  
+  }
+  
+  .box-text {
+    align-items: center;
+    text-align: center;
+  
+  }
+  
+  .box-text h1 {
+    color: #fff;
+  }
+  
+  img {
+    width: 230px;
+    height: 120px;
+    border-radius: 20px;
+    margin: 25px;
+  
+  }
+  
+  .container-row-1 {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .container-row-2 {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .container-row-3 {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  img {
+    transition: 0.5s;
+  }
+  
+  img:hover {
+    transition: 0.3s;
+    transform: translateY(-10px);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+  
+  .box-1-row-1 {
+    position: relative;
+  }
+  
+  .box-1-row-1 .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* สีของข้อความ */
+    font-size: 20px;
+    /* ขนาดของข้อความ */
+    text-align: center;
+    /* การจัดวางข้อความในกลาง */
+    /* เพิ่มเติมตามความต้องการ */
+  }
+  
+  .box-2-row-1 {
+    position: relative;
+  }
+  
+  .box-2-row-1 .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* สีของข้อความ */
+    font-size: 20px;
+    /* ขนาดของข้อความ */
+    text-align: center;
+    /* การจัดวางข้อความในกลาง */
+    /* เพิ่มเติมตามความต้องการ */
+  }
+  
+  .box-3-row-1 {
+    position: relative;
+  }
+  
+  .box-3-row-1 .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* สีของข้อความ */
+    font-size: 20px;
+    /* ขนาดของข้อความ */
+    text-align: center;
+    /* การจัดวางข้อความในกลาง */
+    /* เพิ่มเติมตามความต้องการ */
+  }
+  
+  .box-4-row-1 {
+    position: relative;
+  }
+  
+  .box-4-row-1 .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* สีของข้อความ */
+    font-size: 20px;
+    /* ขนาดของข้อความ */
+    text-align: center;
+    /* การจัดวางข้อความในกลาง */
+    /* เพิ่มเติมตามความต้องการ */
+  }
+  
+  .box-1-row-2 {
+    position: relative;
+  }
+  
+  .box-1-row-2 .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* สีของข้อความ */
+    font-size: 20px;
+    /* ขนาดของข้อความ */
+    text-align: center;
+    /* การจัดวางข้อความในกลาง */
+    /* เพิ่มเติมตามความต้องการ */
+  }
+  
+  .box-2-row-2 {
+    position: relative;
+  }
+  
+  .box-2-row-2 .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* สีของข้อความ */
+    font-size: 20px;
+    /* ขนาดของข้อความ */
+    text-align: center;
+    /* การจัดวางข้อความในกลาง */
+    /* เพิ่มเติมตามความต้องการ */
+  }
+  
+  .box-3-row-2 {
+    position: relative;
+  }
+  
+  .box-3-row-2 .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* สีของข้อความ */
+    font-size: 20px;
+    /* ขนาดของข้อความ */
+    text-align: center;
+    /* การจัดวางข้อความในกลาง */
+    /* เพิ่มเติมตามความต้องการ */
+  }
+  
+  .box-4-row-2 {
+    position: relative;
+  }
+  
+  .box-4-row-2 .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* สีของข้อความ */
+    font-size: 20px;
+    /* ขนาดของข้อความ */
+    text-align: center;
+    /* การจัดวางข้อความในกลาง */
+    /* เพิ่มเติมตามความต้องการ */
+  }
+  .home {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #AFCDEB;
+    opacity: 0.8;
+  }

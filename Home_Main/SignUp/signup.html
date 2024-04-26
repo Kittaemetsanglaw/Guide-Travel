@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="./signup.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>SignUp</title>
+    <title>signUp</title>
 </head>
 
 <body>
@@ -19,45 +19,41 @@
     </div>
     <div class="links">
         <a href="../homepage/Home.html">Home</a>
-        <a href="#">About</a>
-        <a href="#">Blog</a>
-        <a href="#">Contact</a>
+        <a href="../AboutUs/aboutus.html">About</a>
+        <a href="../ContactUs/contact.html">Contact</a>
     </div>
     <!-- nav -->
-
     <div class="bg-main">
 
         <form action="#">
-            <h1>Sign  Up</h1>
-            <div class="input-name">
-                <input type="input-name" placeholder="name" required>
-                <i class="fa-solid fa-user"></i>
+            <h1>Sign Up</h1>
 
+            <div class="input-name">
+                <input type="input-name" id="name" placeholder="name" required>
+                <i class="fa-regular fa-envelope"></i>
             </div>
 
             <div class="input-email">
-
-                <input type="input-email" placeholder="email" required>
+                <input type="input-email" id="email" placeholder="email" required>
                 <i class="fa-regular fa-envelope"></i>
             </div>
 
             <div class="input-pasword" >
-                <input type="password" placeholder="pasword" required>
+                <input type="password" id="password" placeholder="password" required>
                 <i class="fa-solid fa-lock"></i>
             </div>
 
-            <button type="submit" class="btn">Create Account</button>
+            <button type="button" class="btn" onclick="createAccount()"> Create Account </button>
 
 
             <div class="swop-signin-signup">
                 <h1>Not registered? <a href="../SignIn/signin.html">Sing In</a></h1>
             </div>
         </form>
-
-
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script  src="./signup.js"></script>
 
     </div>
-
 
 </html>
 

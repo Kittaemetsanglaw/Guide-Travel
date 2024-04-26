@@ -1,3 +1,41 @@
+.logo {
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    /* เพิ่ม padding เพื่อไม่ให้โลโก้แน่นหน้าภาพ */
+}
+
+.logo img {
+    width: 50px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+/* Links */
+.links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 30px;
+    padding-right: 50px;
+    /* เพิ่ม padding เพื่อไม่ให้ลิงก์แน่นหน้าภาพ */
+}
+
+/* Links ใน Navbar */
+.links a {
+    margin-left: 10px;
+    /* เพิ่มระยะห่างระหว่างลิงก์ */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+
+    font-size: 20px;
+    font-weight: 400;
+    /* border: solid; */
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -6,21 +44,11 @@ body {
     align-items: center;
     text-align: center;
     height: 100vh;
+    background-color: #384450;
 }
 
-body::after {
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-    filter: brightness(45%);
-    background-image: url("../Home/img/เชียงราย/image\(8\).png");
-    background-size: cover;
-    background-position: center;
-}
+
+
 
 .container .Quiz {
     font-size: 32px;
@@ -28,53 +56,47 @@ body::after {
     padding-right: 100px;
     padding-bottom: 20px;
     color: #ffffff;
-
 }
 
-.box1 {
-    margin-left: 35rem;
-    margin-right: 35rem;
-}
-.box2 {
-    margin-left: 35rem;
-    margin-right: 35rem;
-}
-.box3 {
-    margin-left: 35rem;
-    margin-right: 35rem;
-}
-.box4 {
-    margin-left: 35rem;
-    margin-right: 35rem;
+.box-form input[type="text"] {
+    width: 50%;
+    height: 50px;
+    border-radius: 40px;
+    padding: 20px;
+    font-size: 18px;
+    box-sizing: border-box; /* จัดการให้ padding และ border ไม่นับเข้าไปในขนาดของกล่อง */
 }
 
-
-.box1 h1 {
+.box-form input[type="text"]:focus {
+    outline: none; /* ลบเส้นขอบสีน้ำเงินเมื่อกล่องถูก focus */
+    
+}
+  .home {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
     background-color: #AFCDEB;
+    opacity: 0.8;
+  }
+  .button {
+    display: flex;
+    justify-content: start;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+  }
+  
+  .b-1 {
     padding: 10px;
-    border-radius: 50px;
-    opacity: 80%;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
     cursor: pointer;
+    background-color: #AFCDEB;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0.8;
+  }
 
-}
-
-.box2 h1 {
-    background-color: #B5DE94;
-    padding: 10px;
-    border-radius: 50px;
-    opacity: 80%;
-    cursor: pointer;
-}
-
-.box3 h1 {
-    background-color: #D9D9D9;
-    padding: 10px;
-    border-radius: 50px;
-    opacity: 80%;
-    cursor: pointer;
-}
-img::after{
-    
-    content: "ข้อความที่ต้องการใส่";
-    
-}

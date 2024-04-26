@@ -1,0 +1,66 @@
+.logo {
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    /* เพิ่ม padding เพื่อไม่ให้โลโก้แน่นหน้าภาพ */
+}
+
+.logo img {
+    width: 50px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+/* Links */
+.links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 30px;
+    padding-right: 50px;
+    /* เพิ่ม padding เพื่อไม่ให้ลิงก์แน่นหน้าภาพ */
+}
+
+/* Links ใน Navbar */
+.links a {
+    margin-left: 10px;
+    /* เพิ่มระยะห่างระหว่างลิงก์ */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+
+    font-size: 20px;
+    font-weight: 400;
+    /* border: solid; */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #384450;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ให้ container อยู่กลางจอทั้งตัว */
+}
+
+.container {
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* จะทำให้ข้อความอยู่กลาง */
+}
+
+h1, p {
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+}
+
